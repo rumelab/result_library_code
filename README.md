@@ -7,6 +7,8 @@ Below is a sample code snippet to demonstrate the usage of this library.
 
 ```cpp
 
+#include <result.hpp>
+
 // It is invalid for the success value type to be the same as error value type.
 
 Result<uint8_t, String> compute_number_failure() {
